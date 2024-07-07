@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: brush;
+    src: url(assets/Break\ Brush.ttf);
+  }
+  @font-face {
+    font-family: mrsmonster;
+    src: url(assets/mrsmonster.ttf);
+  }
+  h1 {
+    font-family: brush; /* Use the custom font-family here */
+    position: absolute;
+    font-size: 9rem;
+    color: rgb(238, 217, 25);
+    text-shadow: 0 0 30px rgb(0, 0, 0);
+    top: 6rem;
+    letter-spacing: 4px;
+  }
+  
+  
+  #wrapper{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 14px;
+  }
+  
+ 
+  .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+  }
+  #back-ground,#fore-ground{
+    object-fit: cover;
+    z-index: -2;
+    position: absolute;
+
+  }
+ #back-ground{
+    height: 100%;
+    width: 100%;
+    transform: translateZ(-40px) scale(3.9);
+ }
+ #fore-ground{
+    height: 60%;
+    align-self: flex-end;
+    transform: translateZ(-20px) scale(2.7) translateY(59px);
+ }
+ .secheading{
+    font-family: mrsmonster;
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+ .section {
+    position: absolute;
+    background-color: rgb(19, 19, 19);
+    font-family: sans-serif;
+    color: whitesmoke;
+    padding: 5rem 0;
+  }
+
+  .text{
+    font-family: "Margarine", sans-serif;
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+    
+}
+  .desc{
+    position: absolute;
+    background-color: transparent;
+    font-family: brush;
+    padding: 0.5rem 2.5rem;
+     top: 50%;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50px);
+      font-size: 3.5rem;
+      font-weight: 600;
+      text-shadow: 3px 5px 10px black;
+}
+ .bg{
+    position:relative;
+    width: 100%;
+    background-attachment: fixed;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+ } 
+
+.bg1{
+    background-image:url(assets/sonGoku.jpg);
+} 
+.bg2{
+    background-image:url(assets/vegeta.jpg);
+} 
+.bg3{
+    background-image:url(assets/frieza.jpeg);
+} 
+.bg4{
+    background-image:url(assets/Broly.jpg);
+} 
+.bg5{
+    background-image:url(assets/zamasu.png);
+} 
+ 
