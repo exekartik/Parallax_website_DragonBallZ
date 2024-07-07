@@ -1,4 +1,3 @@
-# Parallax_website_DragonBallZ
 # Dragon Ball Z Parallax Website
 
 Welcome to the Dragon Ball Z Parallax Website project! This immersive and dynamic website brings the iconic scenes from the Dragon Ball Z anime to life through the use of parallax scrolling effects. Built with HTML and CSS, this project aims to provide fans with a visually engaging experience.
